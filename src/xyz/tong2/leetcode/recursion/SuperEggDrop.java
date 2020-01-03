@@ -40,7 +40,7 @@ public class SuperEggDrop {
 
     public static void main(String[] args) {
         SuperEggDrop se = new SuperEggDrop();
-        System.out.println(se.superEggDrop(100,10000));
+        System.out.println(se.superEggDrop(2,6));
         System.out.println("时间复杂："+se.count);
     }
 }
