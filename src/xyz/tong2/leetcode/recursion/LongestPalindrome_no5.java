@@ -18,23 +18,18 @@ public class LongestPalindrome_no5 {
         int ansCenter=0;
         int ansLength=0;
 
+        int center=0;
+        int right=0;
+
         for (int i = 1; i < chars.length; i++) {
-            int len = 0;
-            int j = 2;
-
-            while ((i-j)>0) {
-                len = Math.max(len, longestCount[i - j]);
-                j*=2;
+            int len = 1;
+            if(i<right){
+                len = Math.min(right-i,longestCount[2*center-i]);
             }
-            len++;
-
             while (i-len>=0&&i+len<=chars.length-1){
                 if(chars[i-len]==chars[i+len]) {
+                    longestCount[i]=len;
                     if(len>ansLength){
-                        ansCenter=i;
-                        ansLength=len;
-                    }
-                    else if(len==ansLength&&(ansCenter&1)==1){
                         ansCenter=i;
                         ansLength=len;
                     }
@@ -43,8 +38,11 @@ public class LongestPalindrome_no5 {
                 else
                     break;
             }
-            if(len+i>=chars.length-1)
-                break;
+
+            if(i+longestCount[i]>right){
+                center = i;
+                right = longestCount[i]+i;
+            }
         }
         StringBuffer sb=new StringBuffer();
         for (int i=ansCenter-ansLength;i<=ansCenter+ansLength;i++){
