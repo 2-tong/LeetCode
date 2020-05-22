@@ -3,7 +3,7 @@ package xyz.tong2.leetcode.recursion;
 import java.util.*;
 
 public class LevelOrder_no102 {
-    private static class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
