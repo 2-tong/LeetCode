@@ -25,15 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="3道每日一题">
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/DecodeString_no394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/FindDuplicate_no287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/IsSymmetric_no101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/KidsWithCandies_no1431.java" afterDir="false" />
+    <list default="true" id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="6道每日一题">
       <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/LargestRectangleArea_no84.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/Merge_no56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/Rob_no198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/SubarraysDivByK_no974.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/New21Game_no837.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/ProductExceptSelf_no238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/SpiralOrder_no29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="63fe4b9f-2018-4f1c-b7c5-0f7b547de949" name="20号题-括号匹配" comment="" />
@@ -80,35 +77,9 @@
       <recent name="xyz.tong2.leetcode.recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KidsWithCandies_no1431">
+  <component name="RunManager" selected="Application.ProductExceptSelf_no238">
     <configuration name="DecodeString_no394" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.DecodeString_no394" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.tong2.leetcode.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDuplicate_no287" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.FindDuplicate_no287" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.tong2.leetcode.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsMatch_no10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.IsMatch_no10" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +104,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubarraysDivByK_no974" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.SubarraysDivByK_no974" />
+    <configuration name="New21Game_no837" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.New21Game_no837" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.tong2.leetcode.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductExceptSelf_no238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.ProductExceptSelf_no238" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.tong2.leetcode.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralOrder_no29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.SpiralOrder_no29" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -148,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductExceptSelf_no238" />
+        <item itemvalue="Application.SpiralOrder_no29" />
+        <item itemvalue="Application.New21Game_no837" />
         <item itemvalue="Application.KidsWithCandies_no1431" />
         <item itemvalue="Application.DecodeString_no394" />
-        <item itemvalue="Application.SubarraysDivByK_no974" />
-        <item itemvalue="Application.FindDuplicate_no287" />
-        <item itemvalue="Application.IsMatch_no10" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +235,12 @@
       <workItem from="1590825292342" duration="4696000" />
       <workItem from="1590894244114" duration="1136000" />
       <workItem from="1590982484654" duration="1162000" />
-      <workItem from="1591009527364" duration="649000" />
+      <workItem from="1591009527364" duration="1489000" />
+      <workItem from="1591092470561" duration="591000" />
+      <workItem from="1591151393613" duration="7100000" />
+      <workItem from="1591162177414" duration="371000" />
+      <workItem from="1591322223497" duration="2483000" />
+      <workItem from="1591337765905" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="739号题-每日温度">
       <created>1585666196343</created>
@@ -443,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590407624842</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="6道每日一题">
+      <created>1591010366582</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591010366582</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2号题-两数相加" />
     <MESSAGE value="3号题-最长不重复字符串" />
     <MESSAGE value="5号题-最长回文串" />
     <MESSAGE value="更改5号题马拉车算法，10号题提交通过（时间复杂度过高）" />
@@ -487,7 +495,8 @@
     <MESSAGE value="4道每日一题" />
     <MESSAGE value="2道每日一题" />
     <MESSAGE value="3道每日一题" />
-    <option name="LAST_COMMIT_MESSAGE" value="3道每日一题" />
+    <MESSAGE value="6道每日一题" />
+    <option name="LAST_COMMIT_MESSAGE" value="6道每日一题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="713" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1590398660126">
@@ -507,11 +516,11 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="717" y="463" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1160@0.0.1920.1160" timestamp="1589621848085" />
-    <state x="560" y="61" key="CommitChangelistDialog2" timestamp="1590407622241">
+    <state x="560" y="61" key="CommitChangelistDialog2" timestamp="1591010361033">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="560" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590142577046" />
-    <state x="560" y="61" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1590407622241" />
+    <state x="560" y="61" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1591010361033" />
     <state x="184" y="80" width="1736" height="976" key="DiffContextDialog" timestamp="1590407525469">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -520,46 +529,46 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="808" y="474" key="GitRewordDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1587555114913" />
-    <state width="938" height="457" key="GridCell.Tab.0.bottom" timestamp="1590638450105">
+    <state width="938" height="270" key="GridCell.Tab.0.bottom" timestamp="1591339037088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="457" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450105" />
-    <state width="938" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1590409751662" />
-    <state width="938" height="457" key="GridCell.Tab.0.center" timestamp="1590638450104">
+    <state width="938" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591339037088" />
+    <state width="938" height="520" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
+    <state width="938" height="270" key="GridCell.Tab.0.center" timestamp="1591339037088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="457" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450104" />
-    <state width="938" height="311" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1590409751662" />
-    <state width="938" height="457" key="GridCell.Tab.0.left" timestamp="1590638450104">
+    <state width="938" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591339037088" />
+    <state width="938" height="520" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
+    <state width="938" height="270" key="GridCell.Tab.0.left" timestamp="1591339037088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="457" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450104" />
-    <state width="938" height="311" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1590409751662" />
-    <state width="938" height="457" key="GridCell.Tab.0.right" timestamp="1590638450105">
+    <state width="938" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591339037088" />
+    <state width="938" height="520" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
+    <state width="938" height="270" key="GridCell.Tab.0.right" timestamp="1591339037088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="457" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450105" />
-    <state width="938" height="311" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1590409751662" />
-    <state width="938" height="457" key="GridCell.Tab.1.bottom" timestamp="1590638450106">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591339037088" />
+    <state width="938" height="520" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
+    <state width="938" height="520" key="GridCell.Tab.1.bottom" timestamp="1591160341174">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="938" height="457" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450106" />
-    <state width="938" height="521" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1590409751662" />
-    <state width="938" height="457" key="GridCell.Tab.1.center" timestamp="1590638450105">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="520" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341174" />
+    <state width="938" height="520" key="GridCell.Tab.1.center" timestamp="1591160341173">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="938" height="457" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450105" />
-    <state width="938" height="521" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1590409751662" />
-    <state width="938" height="457" key="GridCell.Tab.1.left" timestamp="1590638450105">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="520" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
+    <state width="938" height="520" key="GridCell.Tab.1.left" timestamp="1591160341173">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="938" height="457" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450105" />
-    <state width="938" height="521" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1590409751662" />
-    <state width="938" height="457" key="GridCell.Tab.1.right" timestamp="1590638450106">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="938" height="520" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
+    <state width="938" height="520" key="GridCell.Tab.1.right" timestamp="1591160341173">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state width="938" height="457" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450106" />
-    <state width="938" height="521" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1590409751662" />
+    <state width="938" height="520" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
     <state x="767" y="198" key="RollbackChangesDialog" timestamp="1590407412791">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -572,11 +581,11 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="806" y="488" key="VCS.ChangelistChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1587554963761" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590142592565">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1591018138576">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590142592565" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1589208252758" />
+    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1591018138576" />
     <state x="640" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1586838109554">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
