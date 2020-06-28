@@ -16,7 +16,7 @@ public class ThreeSum_no15 {
             lastB=b;
             lastC=c;
 
-            List<Integer> list = new LinkedList<>();
+            List<Integer> list = new ArrayList<>(3);
             list.add(a);
             list.add(b);
             list.add(c);
@@ -25,7 +25,7 @@ public class ThreeSum_no15 {
     }
 
     public List<List<Integer>> threeSum(int[] nums) {
-        ans = new ArrayList<>();
+        ans = new LinkedList<>();
         if(nums.length<3)
             return ans;
 
