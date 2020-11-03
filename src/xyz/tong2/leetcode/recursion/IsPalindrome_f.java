@@ -30,32 +30,6 @@ public class IsPalindrome_f {
         return true;
     }
 
-    public boolean isPalindrome(char[] s,int begin,int end) {
-        if(s==null)
-            return false;
-        if(s.length==0)
-            return true;
-
-        char[] chars = Arrays.copyOfRange(s,begin,end);
-        int start=0;
-        int last=chars.length-1;
-
-        while (start<last){
-            if(!Character.isLetterOrDigit(chars[start])) {
-                start++;
-                continue;
-            }
-            if (!Character.isLetterOrDigit(chars[last])) {
-                last--;
-                continue;
-            }
-            if(!equalsIgnoreCase(chars[start],chars[last]))
-                return false;
-            start++;
-            last--;
-        }
-        return true;
-    }
 
     private boolean equalsIgnoreCase(char c1,char c2){
         c1 = Character.toLowerCase(c1);

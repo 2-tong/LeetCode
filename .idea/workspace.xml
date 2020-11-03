@@ -19,19 +19,31 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="6道每日一题">
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/LargestRectangleArea_no84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/Merge_no56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/New21Game_no837.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/ProductExceptSelf_no238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/SpiralOrder_no29.java" afterDir="false" />
+    <list default="true" id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="每日一题跟新">
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No112HasPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No350Intersect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No378KthSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No44IsMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No63UniquePathsWithObstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/test/TestIn20615.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/util/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/util/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/AddBinary_no67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/MinSubArrayLen_no209.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/EquationsPossible_no990.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/IsMatch_no10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/IsMatch_no10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/IsPalindrome_f.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/IsPalindrome_f.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/IsSymmetric_no101.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/LargestRectangleArea_no84.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/Merge_no56.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/RecoverFromPreorder_no1028.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/recursion/WordBreak.java" afterDir="false" />
     </list>
     <list id="63fe4b9f-2018-4f1c-b7c5-0f7b547de949" name="20号题-括号匹配" comment="" />
     <list id="3885791b-c70e-4a07-bbc0-27f474cc12bc" name="Revert &quot;20号题-括号匹配&quot;" comment="Revert &quot;20号题-括号匹配&quot;&#10;&#10;This reverts commit f33e2c55" />
@@ -43,6 +55,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -59,11 +72,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../BaiduYunDownload/05. 高级框架阶段【北京尚学堂·百战程序员】/javaCode/boot01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,9 +91,9 @@
       <recent name="xyz.tong2.leetcode.recursion" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductExceptSelf_no238">
-    <configuration name="DecodeString_no394" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.DecodeString_no394" />
+  <component name="RunManager" selected="Application.No140WordBreak">
+    <configuration name="FindBestValue_no1300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.FindBestValue_no1300" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KidsWithCandies_no1431" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.KidsWithCandies_no1431" />
+    <configuration name="LongestCommonPrefix_no14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.LongestCommonPrefix_no14" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="New21Game_no837" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.New21Game_no837" />
+    <configuration name="MinSubArrayLen_no209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.MinSubArrayLen_no209" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductExceptSelf_no238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.ProductExceptSelf_no238" />
+    <configuration name="No140WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.question.No140WordBreak" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.tong2.leetcode.recursion.*" />
+          <option name="PATTERN" value="xyz.tong2.leetcode.question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralOrder_no29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.SpiralOrder_no29" />
+    <configuration name="No378KthSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.question.No378KthSmallest" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.tong2.leetcode.recursion.*" />
+          <option name="PATTERN" value="xyz.tong2.leetcode.question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,14 +159,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductExceptSelf_no238" />
-        <item itemvalue="Application.SpiralOrder_no29" />
-        <item itemvalue="Application.New21Game_no837" />
-        <item itemvalue="Application.KidsWithCandies_no1431" />
-        <item itemvalue="Application.DecodeString_no394" />
+        <item itemvalue="Application.No140WordBreak" />
+        <item itemvalue="Application.No378KthSmallest" />
+        <item itemvalue="Application.MinSubArrayLen_no209" />
+        <item itemvalue="Application.LongestCommonPrefix_no14" />
+        <item itemvalue="Application.FindBestValue_no1300" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -240,7 +255,49 @@
       <workItem from="1591151393613" duration="7100000" />
       <workItem from="1591162177414" duration="371000" />
       <workItem from="1591322223497" duration="2483000" />
-      <workItem from="1591337765905" duration="1448000" />
+      <workItem from="1591337765905" duration="1697000" />
+      <workItem from="1591408558648" duration="143000" />
+      <workItem from="1591409083849" duration="1104000" />
+      <workItem from="1591411165939" duration="4705000" />
+      <workItem from="1591611695781" duration="217000" />
+      <workItem from="1591616756771" duration="3261000" />
+      <workItem from="1591696910122" duration="5799000" />
+      <workItem from="1591761115252" duration="5867000" />
+      <workItem from="1591871361286" duration="2079000" />
+      <workItem from="1591881621514" duration="367000" />
+      <workItem from="1591962921357" duration="2099000" />
+      <workItem from="1592105108700" duration="5677000" />
+      <workItem from="1592118832326" duration="25000" />
+      <workItem from="1592125490807" duration="4365000" />
+      <workItem from="1592201554324" duration="1120000" />
+      <workItem from="1592221388448" duration="5991000" />
+      <workItem from="1592534514276" duration="4526000" />
+      <workItem from="1592650053575" duration="595000" />
+      <workItem from="1592741413645" duration="3556000" />
+      <workItem from="1592902890465" duration="681000" />
+      <workItem from="1593053804280" duration="916000" />
+      <workItem from="1593223201251" duration="1347000" />
+      <workItem from="1593248948564" duration="3630000" />
+      <workItem from="1593318325562" duration="1918000" />
+      <workItem from="1593354140402" duration="668000" />
+      <workItem from="1593670452125" duration="6937000" />
+      <workItem from="1593912566602" duration="2253000" />
+      <workItem from="1593940268035" duration="4053000" />
+      <workItem from="1593996741941" duration="495000" />
+      <workItem from="1594021864596" duration="3202000" />
+      <workItem from="1594085967668" duration="945000" />
+      <workItem from="1594114852486" duration="1514000" />
+      <workItem from="1594449532939" duration="13457000" />
+      <workItem from="1594520319765" duration="288000" />
+      <workItem from="1594640328904" duration="2499000" />
+      <workItem from="1595046156679" duration="3881000" />
+      <workItem from="1596855212479" duration="61000" />
+      <workItem from="1603711260152" duration="818000" />
+      <workItem from="1603853567079" duration="31000" />
+      <workItem from="1603860092666" duration="2002000" />
+      <workItem from="1603943155441" duration="1183000" />
+      <workItem from="1604374115692" duration="5334000" />
+      <workItem from="1604389455157" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="739号题-每日温度">
       <created>1585666196343</created>
@@ -452,18 +509,44 @@
       <option name="project" value="LOCAL" />
       <updated>1591010366582</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="3道每日一题">
+      <created>1591339273311</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591339273311</updated>
+    </task>
+    <task id="LOCAL-00032" summary="leetCode">
+      <created>1593318403129</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1593318403129</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -471,9 +554,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3号题-最长不重复字符串" />
-    <MESSAGE value="5号题-最长回文串" />
-    <MESSAGE value="更改5号题马拉车算法，10号题提交通过（时间复杂度过高）" />
     <MESSAGE value="11号题，双指针算法" />
     <MESSAGE value="15号题-三数和" />
     <MESSAGE value="17号题-电话键盘的数字组合" />
@@ -494,123 +574,54 @@
     <MESSAGE value="添加注释" />
     <MESSAGE value="4道每日一题" />
     <MESSAGE value="2道每日一题" />
-    <MESSAGE value="3道每日一题" />
     <MESSAGE value="6道每日一题" />
-    <option name="LAST_COMMIT_MESSAGE" value="6道每日一题" />
+    <MESSAGE value="3道每日一题" />
+    <MESSAGE value="leetCode" />
+    <MESSAGE value="目录优化" />
+    <MESSAGE value="每日一题跟新" />
+    <option name="LAST_COMMIT_MESSAGE" value="每日一题跟新" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="713" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1590398660126">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="713" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585909689607" />
-    <state x="713" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1590398660126" />
-    <state x="806" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585820966598">
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom" timestamp="1604379513172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="806" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585820966598" />
-    <state x="640" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586838106820">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="640" y="314" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1586838106820" />
-    <state x="717" y="463" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589621848085">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="717" y="463" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1160@0.0.1920.1160" timestamp="1589621848085" />
-    <state x="560" y="61" key="CommitChangelistDialog2" timestamp="1591010361033">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="560" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590142577046" />
-    <state x="560" y="61" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1591010361033" />
-    <state x="184" y="80" width="1736" height="976" key="DiffContextDialog" timestamp="1590407525469">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="184" y="80" width="1736" height="976" key="DiffContextDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1590407525469" />
-    <state x="808" y="474" key="GitRewordDialog" timestamp="1587555114913">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="808" y="474" key="GitRewordDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1587555114913" />
-    <state width="938" height="270" key="GridCell.Tab.0.bottom" timestamp="1591339037088">
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513172" />
+    <state width="1877" height="312" key="GridCell.Tab.0.center" timestamp="1604379513172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591339037088" />
-    <state width="938" height="520" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
-    <state width="938" height="270" key="GridCell.Tab.0.center" timestamp="1591339037088">
+    <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513172" />
+    <state width="1877" height="312" key="GridCell.Tab.0.left" timestamp="1604379513172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591339037088" />
-    <state width="938" height="520" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
-    <state width="938" height="270" key="GridCell.Tab.0.left" timestamp="1591339037088">
+    <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513172" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right" timestamp="1604379513172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591339037088" />
-    <state width="938" height="520" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
-    <state width="938" height="270" key="GridCell.Tab.0.right" timestamp="1591339037088">
+    <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513172" />
+    <state width="1877" height="312" key="GridCell.Tab.1.bottom" timestamp="1604379513173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591339037088" />
-    <state width="938" height="520" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
-    <state width="938" height="520" key="GridCell.Tab.1.bottom" timestamp="1591160341174">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="938" height="457" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450106" />
-    <state width="938" height="520" key="GridCell.Tab.1.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341174" />
-    <state width="938" height="520" key="GridCell.Tab.1.center" timestamp="1591160341173">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="938" height="457" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450105" />
-    <state width="938" height="520" key="GridCell.Tab.1.center/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
-    <state width="938" height="520" key="GridCell.Tab.1.left" timestamp="1591160341173">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="938" height="457" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450105" />
-    <state width="938" height="520" key="GridCell.Tab.1.left/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
-    <state width="938" height="520" key="GridCell.Tab.1.right" timestamp="1591160341173">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="938" height="457" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590638450106" />
-    <state width="938" height="520" key="GridCell.Tab.1.right/0.0.1920.1160@0.0.1920.1160" timestamp="1591160341173" />
-    <state x="767" y="198" key="RollbackChangesDialog" timestamp="1590407412791">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="767" y="198" key="RollbackChangesDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1590407412791" />
-    <state x="360" y="435" key="SettingsEditor" timestamp="1586843438063">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="360" y="435" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1586843438063" />
-    <state x="806" y="488" key="VCS.ChangelistChooser" timestamp="1587554963761">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="806" y="488" key="VCS.ChangelistChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1587554963761" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2" timestamp="1591018138576">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590142592565" />
-    <state x="552" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1160@0.0.1920.1160" timestamp="1591018138576" />
-    <state x="640" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1586838109554">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586608906429" />
-    <state x="640" y="383" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1586838109554" />
-    <state x="507" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1586346667313">
+    <state width="1877" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513173" />
+    <state width="1877" height="312" key="GridCell.Tab.1.center" timestamp="1604379513173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="507" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1586346667313" />
-    <state x="658" y="46" width="826" height="939" key="find.popup" timestamp="1589732078133">
+    <state width="1877" height="312" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513173" />
+    <state width="1877" height="312" key="GridCell.Tab.1.left" timestamp="1604379513173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="46" width="826" height="939" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589732078133" />
-    <state x="680" y="352" key="git4idea.merge.GitPullDialog" timestamp="1587555417177">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="680" y="352" key="git4idea.merge.GitPullDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1587555417177" />
-    <state x="860" y="377" key="scopes" timestamp="1589732036488">
+    <state width="1877" height="312" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513173" />
+    <state width="1877" height="312" key="GridCell.Tab.1.right" timestamp="1604379513173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="860" y="377" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1589732036488" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590549824424">
+    <state width="1877" height="312" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513173" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1604374720317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590549824424" />
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604374720317" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603860235274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603860235274" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,19 +662,17 @@
           <line>108</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No140WordBreak.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
-        <PinnedItemInfo typeName="xyz.tong2.leetcode.recursion.LevelOrder_no102$TreeNode" fieldName="right" />
+        <PinnedItemInfo />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="xor^(~nums[i])^1" language="JAVA" />
-        <watch expression="~nums[i]" language="JAVA" />
-        <watch expression="xor^(~nums[i])" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>

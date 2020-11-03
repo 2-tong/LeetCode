@@ -1,21 +1,27 @@
 package xyz.tong2.leetcode.recursion;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class WordBreak {
+    Map<String,Boolean> dp = new HashMap<>();
     public boolean wordBreak(String s, List<String> wordDict) {
         if(s.length()==0)
             return true;
+
+        if(dp.containsKey(s))
+            return dp.get(s);
+
+        boolean ans = false;
+
         for (String word :
                 wordDict) {
             if (s.startsWith(word)) {
                 if(wordBreak(s.substring(word.length()),wordDict))
-                    return true;
+                    ans = true;
             }
         }
-        return false;
+        dp.put(s,ans);
+        return ans;
     }
 
 

@@ -3,7 +3,7 @@ package xyz.tong2.leetcode.recursion;
 public class IsMatch_no10 {
 
     boolean checkChar(char s,char p){
-        return p == '.' || s == p;
+        return p == '?' || s == p;
     }
 
     public boolean isMatch(String s, String p) {
@@ -28,9 +28,7 @@ public class IsMatch_no10 {
                 }
             }
             else {
-                if(pIndex<p.length()-1&&p.charAt(pIndex+1)=='*')
-                    pIndex++;
-                else if(sIndex>=s.length())
+                if(sIndex>=s.length())
                     return false;
                 else if(!checkChar(s.charAt(sIndex),p.charAt(pIndex)))
                     return false;
