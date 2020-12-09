@@ -25,10 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="283题">
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No1115FooBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No1116ZeroEvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/util/IntConsumer.java" afterDir="false" />
+    <list default="true" id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="两道多线程">
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No861MatrixScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="63fe4b9f-2018-4f1c-b7c5-0f7b547de949" name="20号题-括号匹配" comment="" />
@@ -81,22 +80,9 @@
       <recent name="xyz.tong2.leetcode.question" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddTwoNumbers_no2">
+  <component name="RunManager" selected="Application.No861MatrixScore">
     <configuration name="AddTwoNumbers_no2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.AddTwoNumbers_no2" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.tong2.leetcode.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonPrefix_no14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.LongestCommonPrefix_no14" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -147,24 +133,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="No861MatrixScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.question.No861MatrixScore" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.tong2.leetcode.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No861MatrixScore" />
         <item itemvalue="Application.AddTwoNumbers_no2" />
         <item itemvalue="Application.No140WordBreak" />
         <item itemvalue="Application.No378KthSmallest" />
         <item itemvalue="Application.MinSubArrayLen_no209" />
-        <item itemvalue="Application.LongestCommonPrefix_no14" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +304,8 @@
       <workItem from="1605422011924" duration="100000" />
       <workItem from="1605774669674" duration="2616000" />
       <workItem from="1605853701173" duration="42000" />
-      <workItem from="1606803171145" duration="4926000" />
+      <workItem from="1606803171145" duration="5277000" />
+      <workItem from="1607501543111" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="739号题-每日温度">
       <created>1585666196343</created>
@@ -536,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605776520769</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="两道多线程">
+      <created>1606808441577</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1606808441577</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +576,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="15号题-三数和" />
     <MESSAGE value="17号题-电话键盘的数字组合" />
     <MESSAGE value="19号题-链表删除倒数第n个节点" />
     <MESSAGE value="22号题-括号生成" />
@@ -592,61 +600,8 @@
     <MESSAGE value="目录优化" />
     <MESSAGE value="每日一题跟新" />
     <MESSAGE value="283题" />
-    <option name="LAST_COMMIT_MESSAGE" value="283题" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="422" y="136" key="FileChooserDialogImpl" timestamp="1605853741481">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="422" y="136" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1605853741481" />
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom" timestamp="1605422111828">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1605422111828" />
-    <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513172" />
-    <state width="1238" height="190" key="GridCell.Tab.0.center" timestamp="1605422111828">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1605422111828" />
-    <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513172" />
-    <state width="1238" height="190" key="GridCell.Tab.0.left" timestamp="1605422111828">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1605422111828" />
-    <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513172" />
-    <state width="1238" height="190" key="GridCell.Tab.0.right" timestamp="1605422111828">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1238" height="190" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1605422111828" />
-    <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513172" />
-    <state width="1877" height="312" key="GridCell.Tab.1.bottom" timestamp="1604379513173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513173" />
-    <state width="1877" height="312" key="GridCell.Tab.1.center" timestamp="1604379513173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="312" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513173" />
-    <state width="1877" height="312" key="GridCell.Tab.1.left" timestamp="1604379513173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="312" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513173" />
-    <state width="1877" height="312" key="GridCell.Tab.1.right" timestamp="1604379513173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="312" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604379513173" />
-    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1604374720317">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604374720317" />
-    <state x="233" y="113" key="Vcs.Push.Dialog.v2" timestamp="1605776525893">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="233" y="113" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1605776525893" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603860235274">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603860235274" />
+    <MESSAGE value="两道多线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="两道多线程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
