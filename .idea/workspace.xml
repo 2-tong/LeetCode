@@ -25,17 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="115题">
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No226InvertTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No448FindDisappearedNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No461HammingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No617MergeTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No92ReverseBetween.java" afterDir="false" />
+    <list default="true" id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="1603简单题">
+      <change afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/question/No1006Clumsy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xyz/tong2/leetcode/util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xyz/tong2/leetcode/util/ListNode.java" afterDir="false" />
     </list>
-    <list id="63fe4b9f-2018-4f1c-b7c5-0f7b547de949" name="20号题-括号匹配" comment="" />
-    <list id="3885791b-c70e-4a07-bbc0-27f474cc12bc" name="Revert &quot;20号题-括号匹配&quot;" comment="Revert &quot;20号题-括号匹配&quot;&#10;&#10;This reverts commit f33e2c55" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,13 +78,13 @@
       <recent name="xyz.tong2.leetcode.question" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.No115NumDistinct">
-    <configuration name="AddTwoNumbers_no2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.recursion.AddTwoNumbers_no2" />
+  <component name="RunManager" selected="Application.No1006Clumsy">
+    <configuration name="No1006Clumsy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.tong2.leetcode.question.No1006Clumsy" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xyz.tong2.leetcode.recursion.*" />
+          <option name="PATTERN" value="xyz.tong2.leetcode.question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.No1006Clumsy" />
         <item itemvalue="Application.No115NumDistinct" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.UniquePaths_no62" />
         <item itemvalue="Application.No861MatrixScore" />
-        <item itemvalue="Application.AddTwoNumbers_no2" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +172,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7200bdd8-6563-44c5-8d0e-e7d9c94afe69" name="Default Changelist" comment="" />
-      <changelist id="63fe4b9f-2018-4f1c-b7c5-0f7b547de949" name="20号题-括号匹配" comment="" />
       <created>1564825061768</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -317,7 +309,14 @@
       <workItem from="1615961411391" duration="7303000" />
       <workItem from="1615970329145" duration="459000" />
       <workItem from="1615970804200" duration="214000" />
-      <workItem from="1616030211173" duration="5438000" />
+      <workItem from="1616030211173" duration="5726000" />
+      <workItem from="1616049175524" duration="1604000" />
+      <workItem from="1616116246318" duration="1668000" />
+      <workItem from="1616121442037" duration="607000" />
+      <workItem from="1617153397511" duration="450000" />
+      <workItem from="1617245958934" duration="1905000" />
+      <workItem from="1617258336921" duration="28000" />
+      <workItem from="1617261001812" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="739号题-每日温度">
       <created>1585666196343</created>
@@ -571,7 +570,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615969501403</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="92题和四道简单题">
+      <created>1616047751825</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1616047751825</updated>
+    </task>
+    <task id="LOCAL-00038" summary="1603简单题">
+      <created>1616117215710</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1616117215710</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,8 +615,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22号题-括号生成" />
-    <MESSAGE value="23号题-k个链表合并" />
     <MESSAGE value="32号题-最长括号" />
     <MESSAGE value="Revert &quot;32号题-最长括号&quot;&#10;&#10;This reverts commit 5b4311ee" />
     <MESSAGE value="33号题-旋转搜索" />
@@ -627,7 +638,9 @@
     <MESSAGE value="两道多线程" />
     <MESSAGE value="861题" />
     <MESSAGE value="115题" />
-    <option name="LAST_COMMIT_MESSAGE" value="115题" />
+    <MESSAGE value="92题和四道简单题" />
+    <MESSAGE value="1603简单题" />
+    <option name="LAST_COMMIT_MESSAGE" value="1603简单题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
