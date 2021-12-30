@@ -20,6 +20,6 @@ package xyz.tong2.leetcode.question;
  */
 public class No583MinDistance   {
     public int minDistance(String word1, String word2) {
-
+        return 1;
     }
 }
